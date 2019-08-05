@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { EventEmitter, Component, ChangeDetectionStrategy, ViewChild, Input, Output, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { __awaiter } from 'tslib';
-import { BrowserMultiFormatReader, NotFoundException, ChecksumException, FormatException, BarcodeFormat, ArgumentException, DecodeHintType } from 'ngx-scanner/library';
+import { BrowserMultiFormatReader, NotFoundException, ChecksumException, FormatException, BarcodeFormat, ArgumentException, DecodeHintType } from 'ng-scana/library';
 import { BehaviorSubject } from 'rxjs';
 
 /**

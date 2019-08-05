@@ -4,7 +4,7 @@
  */
 import * as tslib_1 from "tslib";
 import { ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@angular/core';
-import { ArgumentException, BarcodeFormat, DecodeHintType } from 'ngx-scanner/library';
+import { ArgumentException, BarcodeFormat, DecodeHintType } from 'ng-scana/library';
 import { BrowserMultiFormatContinuousReader } from './browser-multi-format-continuous-reader';
 export class ZXingScannerComponent {
     /**

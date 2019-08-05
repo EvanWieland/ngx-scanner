@@ -5,7 +5,7 @@
 import * as tslib_1 from "tslib";
 /// <reference path="./image-capture.d.ts" />
 /// <reference path="./image-capture.d.ts" />
-import { BrowserMultiFormatReader, ChecksumException, FormatException, NotFoundException } from 'ngx-scanner/library';
+import { BrowserMultiFormatReader, ChecksumException, FormatException, NotFoundException } from 'ng-scana/library';
 import { BehaviorSubject } from 'rxjs';
 /**
  * Based on zxing-typescript BrowserCodeReader

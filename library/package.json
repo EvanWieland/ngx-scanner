@@ -1,5 +1,5 @@
 {
-    "name": "@zxing/library",
+    "name": "ng-scana/library",
     "version": "0.15.1",
     "description": "TypeScript port of ZXing multi-format 1D/2D barcode image processing library.",
     "keywords": [
