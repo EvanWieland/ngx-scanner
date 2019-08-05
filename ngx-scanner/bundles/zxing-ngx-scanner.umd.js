@@ -1,6 +1,6 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/common'), require('@angular/core'), require('@angular/forms'), require('@zxing/library'), require('rxjs')) :
-    typeof define === 'function' && define.amd ? define('@zxing/ngx-scanner', ['exports', '@angular/common', '@angular/core', '@angular/forms', '@zxing/library', 'rxjs'], factory) :
+    typeof define === 'function' && define.amd ? define('ngx-scanner/ngx-scanner', ['exports', '@angular/common', '@angular/core', '@angular/forms', '@zxing/library', 'rxjs'], factory) :
     (global = global || self, factory((global.zxing = global.zxing || {}, global.zxing['ngx-scanner'] = {}), global.ng.common, global.ng.core, global.ng.forms, global.library, global.rxjs));
 }(this, function (exports, common, core, forms, library, rxjs) { 'use strict';
 

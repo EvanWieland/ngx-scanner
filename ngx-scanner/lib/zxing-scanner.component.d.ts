@@ -1,5 +1,5 @@
 import { AfterViewInit, ElementRef, EventEmitter, OnDestroy } from '@angular/core';
-import { BarcodeFormat, DecodeHintType, Exception, Result } from '@zxing/library';
+import { BarcodeFormat, DecodeHintType, Exception, Result } from 'ngx-scanner/library';
 import { BrowserMultiFormatContinuousReader } from './browser-multi-format-continuous-reader';
 export declare class ZXingScannerComponent implements AfterViewInit, OnDestroy {
     /**

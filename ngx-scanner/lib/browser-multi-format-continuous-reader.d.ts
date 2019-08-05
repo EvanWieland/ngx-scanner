@@ -1,5 +1,5 @@
 /// <reference path="image-capture.d.ts" />
-import { BrowserMultiFormatReader } from '@zxing/library';
+import { BrowserMultiFormatReader } from 'ngx-scanner/library';
 import { Observable } from 'rxjs';
 import { ResultAndError } from './ResultAndError';
 /**
